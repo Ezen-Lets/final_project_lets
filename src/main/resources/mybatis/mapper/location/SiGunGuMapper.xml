@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vj.lets.domain.location.mapper.SiGunGuMapper">
+
+    <insert id="create">
+        INSERT INTO SI_GUN_GU(ID, NAME, SI_DO_ID)
+        VALUES (SI_GUN_GU_ID_SEQ.NEXTVAL, #{siGunGu.name}, #{siGunGu.siDoId})
+    </insert>
+
+    <select id="findBySiGunGu" resultType="SiGunGu">
+        SELECT ID, NAME, Si_DO_ID
+        FROM SI_GUN_GU
+        WHERE NAME = #{siGunGuName}
+    </select>
+
+</mapper>

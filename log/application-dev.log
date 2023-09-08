@@ -1841,3 +1841,211 @@ java.lang.IllegalStateException: Cannot call sendRedirect() after the response h
 [2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@1577428742 wrapping oracle.jdbc.driver.T4CConnection@5463f035] after transaction
 [2023-09-08 17:27:24][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
 [2023-09-08 17:27:24][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 22:50:01][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiDoServiceTest using Java 17.0.8.1 with PID 3320 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 22:50:01][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 22:50:03][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 22:50:03][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiDoServiceTest in 2.914 seconds (process running for 4.278)
+[2023-09-08 22:50:05][main][DEBUG](DataSourceUtils.java: doGetConnection(): 117) : Fetching JDBC Connection from DataSource
+[2023-09-08 22:50:05][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 22:50:05][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@adc8683
+[2023-09-08 22:50:05][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 22:50:05][main][INFO ](SiDoServiceTest.java: registerTest(): 26) : 시,도 정보 : 제주도
+[2023-09-08 22:50:05][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 22:50:05][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 22:51:22][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiDoServiceTest using Java 17.0.8.1 with PID 7452 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 22:51:22][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 22:51:24][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 22:51:25][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiDoServiceTest in 2.858 seconds (process running for 4.107)
+[2023-09-08 22:51:25][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiDoServiceTest.findBySiDoTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 22:51:25][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 22:51:25][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5aea8994
+[2023-09-08 22:51:25][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 22:51:25][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@5aea8994] for JDBC transaction
+[2023-09-08 22:51:25][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@5aea8994] to manual commit
+[2023-09-08 22:51:26][main][DEBUG](SQLErrorCodesFactory.java: resolveErrorCodes(): 230) : Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@6a6da47a]
+[2023-09-08 22:51:26][main][DEBUG](SQLErrorCodesFactory.java: getErrorCodes(): 188) : SQL error codes for 'Oracle' found
+[2023-09-08 22:51:26][main][DEBUG](SQLErrorCodesFactory.java: registerDatabase(): 274) : Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@6a6da47a]: database product name is 'Oracle'
+[2023-09-08 22:51:26][main][DEBUG](SQLErrorCodeSQLExceptionTranslator.java: doTranslate(): 293) : Unable to translate SQLException with Error code '17056', will now try the fallback translator
+[2023-09-08 22:51:26][main][DEBUG](SQLStateSQLExceptionTranslator.java: doTranslate(): 96) : Extracted SQL state class '99' from value '99999'
+[2023-09-08 22:51:26][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 22:51:26][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@5aea8994]
+[2023-09-08 22:51:26][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@5aea8994] after transaction
+[2023-09-08 22:51:26][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 22:51:26][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 22:55:34][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiDoServiceTest using Java 17.0.8.1 with PID 6548 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 22:55:34][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 22:55:36][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 22:55:36][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiDoServiceTest in 2.678 seconds (process running for 3.818)
+[2023-09-08 22:55:36][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiDoServiceTest.findBySiDoTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 22:55:36][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 22:55:37][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5aea8994
+[2023-09-08 22:55:37][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 22:55:37][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@362367755 wrapping oracle.jdbc.driver.T4CConnection@5aea8994] for JDBC transaction
+[2023-09-08 22:55:37][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@362367755 wrapping oracle.jdbc.driver.T4CConnection@5aea8994] to manual commit
+[2023-09-08 22:55:38][main][DEBUG](SQLErrorCodesFactory.java: resolveErrorCodes(): 230) : Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@4d43a1b7]
+[2023-09-08 22:55:38][main][DEBUG](SQLErrorCodesFactory.java: getErrorCodes(): 188) : SQL error codes for 'Oracle' found
+[2023-09-08 22:55:38][main][DEBUG](SQLErrorCodesFactory.java: registerDatabase(): 274) : Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@4d43a1b7]: database product name is 'Oracle'
+[2023-09-08 22:55:38][main][DEBUG](SQLErrorCodeSQLExceptionTranslator.java: doTranslate(): 293) : Unable to translate SQLException with Error code '17056', will now try the fallback translator
+[2023-09-08 22:55:38][main][DEBUG](SQLStateSQLExceptionTranslator.java: doTranslate(): 96) : Extracted SQL state class '99' from value '99999'
+[2023-09-08 22:55:38][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 22:55:38][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@362367755 wrapping oracle.jdbc.driver.T4CConnection@5aea8994]
+[2023-09-08 22:55:38][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@362367755 wrapping oracle.jdbc.driver.T4CConnection@5aea8994] after transaction
+[2023-09-08 22:55:38][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 22:55:38][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 22:56:56][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiDoServiceTest using Java 17.0.8.1 with PID 12588 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 22:56:56][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 22:57:01][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 22:57:01][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiDoServiceTest in 5.952 seconds (process running for 8.072)
+[2023-09-08 22:57:01][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiDoServiceTest.findBySiDoTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 22:57:01][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 22:57:02][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@20a3e10c
+[2023-09-08 22:57:02][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 22:57:02][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c] for JDBC transaction
+[2023-09-08 22:57:02][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c] to manual commit
+[2023-09-08 22:57:04][main][DEBUG](SQLErrorCodesFactory.java: resolveErrorCodes(): 230) : Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@6a6da47a]
+[2023-09-08 22:57:04][main][DEBUG](SQLErrorCodesFactory.java: getErrorCodes(): 188) : SQL error codes for 'Oracle' found
+[2023-09-08 22:57:04][main][DEBUG](SQLErrorCodesFactory.java: registerDatabase(): 274) : Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@6a6da47a]: database product name is 'Oracle'
+[2023-09-08 22:57:04][main][DEBUG](SQLErrorCodeSQLExceptionTranslator.java: doTranslate(): 293) : Unable to translate SQLException with Error code '17056', will now try the fallback translator
+[2023-09-08 22:57:04][main][DEBUG](SQLStateSQLExceptionTranslator.java: doTranslate(): 96) : Extracted SQL state class '99' from value '99999'
+[2023-09-08 22:57:04][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 22:57:04][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c]
+[2023-09-08 22:57:04][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c] after transaction
+[2023-09-08 22:57:04][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 22:57:04][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 22:59:41][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiDoServiceTest using Java 17.0.8.1 with PID 17856 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 22:59:41][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 22:59:42][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 22:59:43][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiDoServiceTest in 2.561 seconds (process running for 3.704)
+[2023-09-08 22:59:43][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiDoServiceTest.findBySiDoTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 22:59:43][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 22:59:43][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@20a3e10c
+[2023-09-08 22:59:43][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 22:59:43][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@1833567735 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c] for JDBC transaction
+[2023-09-08 22:59:43][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@1833567735 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c] to manual commit
+[2023-09-08 22:59:44][main][DEBUG](SQLErrorCodesFactory.java: resolveErrorCodes(): 230) : Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@8f39224]
+[2023-09-08 22:59:44][main][DEBUG](SQLErrorCodesFactory.java: getErrorCodes(): 188) : SQL error codes for 'Oracle' found
+[2023-09-08 22:59:44][main][DEBUG](SQLErrorCodesFactory.java: registerDatabase(): 274) : Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@8f39224]: database product name is 'Oracle'
+[2023-09-08 22:59:44][main][DEBUG](SQLErrorCodeSQLExceptionTranslator.java: doTranslate(): 293) : Unable to translate SQLException with Error code '17056', will now try the fallback translator
+[2023-09-08 22:59:44][main][DEBUG](SQLStateSQLExceptionTranslator.java: doTranslate(): 96) : Extracted SQL state class '99' from value '99999'
+[2023-09-08 22:59:44][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 22:59:44][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@1833567735 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c]
+[2023-09-08 22:59:44][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@1833567735 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c] after transaction
+[2023-09-08 22:59:44][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 22:59:44][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 23:09:49][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiDoServiceTest using Java 17.0.8.1 with PID 13408 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 23:09:49][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 23:09:51][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 23:09:51][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiDoServiceTest in 2.603 seconds (process running for 3.741)
+[2023-09-08 23:09:51][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiDoServiceTest.findBySiDoTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 23:09:51][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 23:09:51][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@20a3e10c
+[2023-09-08 23:09:51][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 23:09:51][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c] for JDBC transaction
+[2023-09-08 23:09:51][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c] to manual commit
+[2023-09-08 23:09:52][main][DEBUG](SQLErrorCodesFactory.java: resolveErrorCodes(): 230) : Looking up default SQLErrorCodes for DataSource [com.zaxxer.hikari.HikariDataSource@6a6da47a]
+[2023-09-08 23:09:52][main][DEBUG](SQLErrorCodesFactory.java: getErrorCodes(): 188) : SQL error codes for 'Oracle' found
+[2023-09-08 23:09:52][main][DEBUG](SQLErrorCodesFactory.java: registerDatabase(): 274) : Caching SQL error codes for DataSource [com.zaxxer.hikari.HikariDataSource@6a6da47a]: database product name is 'Oracle'
+[2023-09-08 23:09:52][main][DEBUG](SQLErrorCodeSQLExceptionTranslator.java: doTranslate(): 293) : Unable to translate SQLException with Error code '17056', will now try the fallback translator
+[2023-09-08 23:09:52][main][DEBUG](SQLStateSQLExceptionTranslator.java: doTranslate(): 96) : Extracted SQL state class '99' from value '99999'
+[2023-09-08 23:09:52][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 23:09:52][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c]
+[2023-09-08 23:09:52][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@993023654 wrapping oracle.jdbc.driver.T4CConnection@20a3e10c] after transaction
+[2023-09-08 23:09:52][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 23:09:52][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 23:11:36][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiDoServiceTest using Java 17.0.8.1 with PID 23660 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 23:11:36][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 23:11:38][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 23:11:39][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiDoServiceTest in 2.697 seconds (process running for 3.893)
+[2023-09-08 23:11:39][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiDoServiceTest.findBySiDoTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 23:11:39][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 23:11:39][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@677349fb
+[2023-09-08 23:11:39][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 23:11:39][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@532732340 wrapping oracle.jdbc.driver.T4CConnection@677349fb] for JDBC transaction
+[2023-09-08 23:11:39][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@532732340 wrapping oracle.jdbc.driver.T4CConnection@677349fb] to manual commit
+[2023-09-08 23:11:40][main][INFO ](SiDoServiceTest.java: findBySiDoTest(): 41) : 시,도 정보 : SiDo(id=5, name=제주도)
+[2023-09-08 23:11:40][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 23:11:40][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@532732340 wrapping oracle.jdbc.driver.T4CConnection@677349fb]
+[2023-09-08 23:11:40][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@532732340 wrapping oracle.jdbc.driver.T4CConnection@677349fb] after transaction
+[2023-09-08 23:11:40][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 23:11:40][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 23:21:47][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiGunGuServiceTest using Java 17.0.8.1 with PID 276 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 23:21:47][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 23:21:49][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 23:21:49][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiGunGuServiceTest in 2.851 seconds (process running for 4.119)
+[2023-09-08 23:21:49][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiGunGuServiceTest.registerTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 23:21:49][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 23:21:50][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2b7facc7
+[2023-09-08 23:21:50][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 23:21:50][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@741225568 wrapping oracle.jdbc.driver.T4CConnection@2b7facc7] for JDBC transaction
+[2023-09-08 23:21:50][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@741225568 wrapping oracle.jdbc.driver.T4CConnection@2b7facc7] to manual commit
+[2023-09-08 23:21:51][main][INFO ](SiGunGuServiceTest.java: registerTest(): 37) : 시, 군, 구 정보 : SiGunGu(id=0, name=제주시, siDoId=5)
+[2023-09-08 23:21:51][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 23:21:51][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@741225568 wrapping oracle.jdbc.driver.T4CConnection@2b7facc7]
+[2023-09-08 23:21:51][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@741225568 wrapping oracle.jdbc.driver.T4CConnection@2b7facc7] after transaction
+[2023-09-08 23:21:51][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 23:21:51][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 23:22:11][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiGunGuServiceTest using Java 17.0.8.1 with PID 15480 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 23:22:11][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 23:22:13][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 23:22:13][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiGunGuServiceTest in 2.853 seconds (process running for 4.094)
+[2023-09-08 23:22:13][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiGunGuServiceTest.findBySiGunGuTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 23:22:13][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 23:22:14][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5e99e2cb
+[2023-09-08 23:22:14][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 23:22:14][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@1028728402 wrapping oracle.jdbc.driver.T4CConnection@5e99e2cb] for JDBC transaction
+[2023-09-08 23:22:14][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@1028728402 wrapping oracle.jdbc.driver.T4CConnection@5e99e2cb] to manual commit
+[2023-09-08 23:22:15][main][INFO ](SiGunGuServiceTest.java: findBySiGunGuTest(): 49) : 시, 군, 구 정보 : SiGunGu(id=3, name=강북구, siDoId=1)
+[2023-09-08 23:22:15][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 23:22:15][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@1028728402 wrapping oracle.jdbc.driver.T4CConnection@5e99e2cb]
+[2023-09-08 23:22:15][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@1028728402 wrapping oracle.jdbc.driver.T4CConnection@5e99e2cb] after transaction
+[2023-09-08 23:22:15][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 23:22:15][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 23:28:23][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiGunGuServiceTest using Java 17.0.8.1 with PID 17236 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 23:28:23][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 23:28:25][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 23:28:26][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiGunGuServiceTest in 2.829 seconds (process running for 4.053)
+[2023-09-08 23:28:26][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiGunGuServiceTest.findBySiGunGuTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 23:28:26][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 23:28:26][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1c74d19
+[2023-09-08 23:28:26][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 23:28:26][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@2015110295 wrapping oracle.jdbc.driver.T4CConnection@1c74d19] for JDBC transaction
+[2023-09-08 23:28:26][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@2015110295 wrapping oracle.jdbc.driver.T4CConnection@1c74d19] to manual commit
+[2023-09-08 23:28:27][main][INFO ](SiGunGuServiceTest.java: findBySiGunGuTest(): 49) : 시, 군, 구 정보 : SiGunGu(id=3, name=강북구, siDoId=1)
+[2023-09-08 23:28:27][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 23:28:27][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@2015110295 wrapping oracle.jdbc.driver.T4CConnection@1c74d19]
+[2023-09-08 23:28:27][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@2015110295 wrapping oracle.jdbc.driver.T4CConnection@1c74d19] after transaction
+[2023-09-08 23:28:27][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 23:28:27][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 23:31:16][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiGunGuServiceTest using Java 17.0.8.1 with PID 17884 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 23:31:16][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 23:31:18][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 23:31:18][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiGunGuServiceTest in 2.78 seconds (process running for 4.03)
+[2023-09-08 23:31:18][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiGunGuServiceTest.registerTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 23:31:18][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 23:31:19][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@63917fe1
+[2023-09-08 23:31:19][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 23:31:19][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@722929970 wrapping oracle.jdbc.driver.T4CConnection@63917fe1] for JDBC transaction
+[2023-09-08 23:31:19][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@722929970 wrapping oracle.jdbc.driver.T4CConnection@63917fe1] to manual commit
+[2023-09-08 23:31:20][main][INFO ](SiGunGuServiceTest.java: registerTest(): 40) : 시, 군, 구 정보 : SiGunGu(id=0, name=어쩔군, siDoId=6)
+[2023-09-08 23:31:20][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 23:31:20][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@722929970 wrapping oracle.jdbc.driver.T4CConnection@63917fe1]
+[2023-09-08 23:31:20][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@722929970 wrapping oracle.jdbc.driver.T4CConnection@63917fe1] after transaction
+[2023-09-08 23:31:20][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 23:31:20][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 23:32:05][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SiGunGuServiceTest using Java 17.0.8.1 with PID 6124 (started by gmldu in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 23:32:05][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 23:32:07][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 23:32:08][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SiGunGuServiceTest in 2.835 seconds (process running for 4.132)
+[2023-09-08 23:32:08][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.location.service.SiGunGuServiceTest.registerTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 23:32:08][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 23:32:08][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@63917fe1
+[2023-09-08 23:32:08][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 23:32:08][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@999749808 wrapping oracle.jdbc.driver.T4CConnection@63917fe1] for JDBC transaction
+[2023-09-08 23:32:08][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@999749808 wrapping oracle.jdbc.driver.T4CConnection@63917fe1] to manual commit
+[2023-09-08 23:32:10][main][INFO ](SiGunGuServiceTest.java: registerTest(): 40) : 시, 도 정도 : SiDo(id=7, name=광주광역시)
+[2023-09-08 23:32:10][main][INFO ](SiGunGuServiceTest.java: registerTest(): 41) : 시, 군, 구 정보 : SiGunGu(id=0, name=어쩔군, siDoId=7)
+[2023-09-08 23:32:10][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 23:32:10][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@999749808 wrapping oracle.jdbc.driver.T4CConnection@63917fe1]
+[2023-09-08 23:32:10][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@999749808 wrapping oracle.jdbc.driver.T4CConnection@63917fe1] after transaction
+[2023-09-08 23:32:10][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 23:32:10][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.

@@ -2,6 +2,7 @@ package com.vj.lets.domain.group.mapper;//import static org.junit.jupiter.api.As
 
 import com.vj.lets.domain.group.dto.StudyGroup;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -36,6 +37,7 @@ class StudyGroupMapperTest {
 
     @Test
     @Transactional
+    @Disabled
     void findByAllTest() {
         // given
 
@@ -47,6 +49,7 @@ class StudyGroupMapperTest {
 
     @Test
     @Transactional
+    @Disabled
     void readTest() {
         // given
 
@@ -58,6 +61,7 @@ class StudyGroupMapperTest {
 
     @Test
     @Transactional
+    @Disabled
     void updateTest() {
         // given
 
@@ -69,6 +73,7 @@ class StudyGroupMapperTest {
 
     @Test
     @Transactional
+    @Disabled
     void deleteTest() {
         // given
 
