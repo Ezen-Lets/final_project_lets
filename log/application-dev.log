@@ -1777,3 +1777,67 @@ java.lang.IllegalStateException: Cannot call sendRedirect() after the response h
 [2023-09-08 14:03:44][http-nio-80-exec-1][INFO ](FrameworkServlet.java: initServletBean(): 532) : Initializing Servlet 'dispatcherServlet'
 [2023-09-08 14:03:44][http-nio-80-exec-1][INFO ](FrameworkServlet.java: initServletBean(): 554) : Completed initialization in 1 ms
 [2023-09-08 14:03:44][http-nio-80-exec-1][WARN ](DirectJDKLog.java: log(): 173) : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [101] milliseconds.
+[2023-09-08 15:17:00][http-nio-80-exec-4][DEBUG](DataSourceUtils.java: doGetConnection(): 117) : Fetching JDBC Connection from DataSource
+[2023-09-08 15:17:00][http-nio-80-exec-4][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 15:17:00][http-nio-80-exec-4][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@22d9af57
+[2023-09-08 15:17:00][http-nio-80-exec-4][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 15:17:40][http-nio-80-exec-7][DEBUG](DataSourceUtils.java: doGetConnection(): 117) : Fetching JDBC Connection from DataSource
+[2023-09-08 15:18:00][http-nio-80-exec-8][DEBUG](DataSourceUtils.java: doGetConnection(): 117) : Fetching JDBC Connection from DataSource
+[2023-09-08 15:20:12][http-nio-80-exec-2][DEBUG](DataSourceUtils.java: doGetConnection(): 117) : Fetching JDBC Connection from DataSource
+[2023-09-08 15:49:11][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 15:49:11][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 17:20:51][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting StudyGroupMapperTest using Java 17.0.8 with PID 11016 (started by i7C- in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 17:20:51][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 17:20:53][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 17:20:53][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started StudyGroupMapperTest in 3.232 seconds (process running for 4.543)
+[2023-09-08 17:20:53][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.group.mapper.StudyGroupMapperTest.createTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 17:20:53][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 17:20:54][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@e0d1dc4
+[2023-09-08 17:20:54][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 17:20:54][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@1628421660 wrapping oracle.jdbc.driver.T4CConnection@e0d1dc4] for JDBC transaction
+[2023-09-08 17:20:54][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@1628421660 wrapping oracle.jdbc.driver.T4CConnection@e0d1dc4] to manual commit
+[2023-09-08 17:20:55][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 17:20:55][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@1628421660 wrapping oracle.jdbc.driver.T4CConnection@e0d1dc4]
+[2023-09-08 17:20:55][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@1628421660 wrapping oracle.jdbc.driver.T4CConnection@e0d1dc4] after transaction
+[2023-09-08 17:20:55][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 17:20:55][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
+[2023-09-08 17:27:20][main][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting StudyGroupMapperTest using Java 17.0.8 with PID 10464 (started by i7C- in C:\ezen-fullstack\workspace\final_project_lets)
+[2023-09-08 17:27:20][main][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 17:27:22][main][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 17:27:22][main][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started StudyGroupMapperTest in 3.095 seconds (process running for 4.53)
+[2023-09-08 17:27:22][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.group.mapper.StudyGroupMapperTest.readTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 17:27:22][main][INFO ](HikariDataSource.java: getConnection(): 110) : HikariPool-1 - Starting...
+[2023-09-08 17:27:23][main][INFO ](HikariPool.java: checkFailFast(): 565) : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5463f035
+[2023-09-08 17:27:23][main][INFO ](HikariDataSource.java: getConnection(): 123) : HikariPool-1 - Start completed.
+[2023-09-08 17:27:23][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@288986440 wrapping oracle.jdbc.driver.T4CConnection@5463f035] for JDBC transaction
+[2023-09-08 17:27:23][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@288986440 wrapping oracle.jdbc.driver.T4CConnection@5463f035] to manual commit
+[2023-09-08 17:27:24][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@288986440 wrapping oracle.jdbc.driver.T4CConnection@5463f035]
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@288986440 wrapping oracle.jdbc.driver.T4CConnection@5463f035] after transaction
+[2023-09-08 17:27:24][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.group.mapper.StudyGroupMapperTest.updateTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@1845590352 wrapping oracle.jdbc.driver.T4CConnection@5463f035] for JDBC transaction
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@1845590352 wrapping oracle.jdbc.driver.T4CConnection@5463f035] to manual commit
+[2023-09-08 17:27:24][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@1845590352 wrapping oracle.jdbc.driver.T4CConnection@5463f035]
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@1845590352 wrapping oracle.jdbc.driver.T4CConnection@5463f035] after transaction
+[2023-09-08 17:27:24][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.group.mapper.StudyGroupMapperTest.findByAllTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@486965279 wrapping oracle.jdbc.driver.T4CConnection@5463f035] for JDBC transaction
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@486965279 wrapping oracle.jdbc.driver.T4CConnection@5463f035] to manual commit
+[2023-09-08 17:27:24][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@486965279 wrapping oracle.jdbc.driver.T4CConnection@5463f035]
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@486965279 wrapping oracle.jdbc.driver.T4CConnection@5463f035] after transaction
+[2023-09-08 17:27:24][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.group.mapper.StudyGroupMapperTest.createTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@1920554683 wrapping oracle.jdbc.driver.T4CConnection@5463f035] for JDBC transaction
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@1920554683 wrapping oracle.jdbc.driver.T4CConnection@5463f035] to manual commit
+[2023-09-08 17:27:24][main][INFO ](StudyGroupMapperTest.java: createTest(): 33) : 스터디그룹 정보 : StudyGroup(id=1, name=스터디, headCount=10, regdate=null, imagePath=null, subject=주식, status=null, siGunGuId=1)
+[2023-09-08 17:27:24][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@1920554683 wrapping oracle.jdbc.driver.T4CConnection@5463f035]
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@1920554683 wrapping oracle.jdbc.driver.T4CConnection@5463f035] after transaction
+[2023-09-08 17:27:24][main][DEBUG](AbstractPlatformTransactionManager.java: getTransaction(): 370) : Creating new transaction with name [com.vj.lets.domain.group.mapper.StudyGroupMapperTest.deleteTest]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 271) : Acquired Connection [HikariProxyConnection@1577428742 wrapping oracle.jdbc.driver.T4CConnection@5463f035] for JDBC transaction
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doBegin(): 289) : Switching JDBC Connection [HikariProxyConnection@1577428742 wrapping oracle.jdbc.driver.T4CConnection@5463f035] to manual commit
+[2023-09-08 17:27:24][main][DEBUG](AbstractPlatformTransactionManager.java: processRollback(): 833) : Initiating transaction rollback
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doRollback(): 349) : Rolling back JDBC transaction on Connection [HikariProxyConnection@1577428742 wrapping oracle.jdbc.driver.T4CConnection@5463f035]
+[2023-09-08 17:27:24][main][DEBUG](DataSourceTransactionManager.java: doCleanupAfterCompletion(): 393) : Releasing JDBC Connection [HikariProxyConnection@1577428742 wrapping oracle.jdbc.driver.T4CConnection@5463f035] after transaction
+[2023-09-08 17:27:24][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 350) : HikariPool-1 - Shutdown initiated...
+[2023-09-08 17:27:24][SpringApplicationShutdownHook][INFO ](HikariDataSource.java: close(): 352) : HikariPool-1 - Shutdown completed.
