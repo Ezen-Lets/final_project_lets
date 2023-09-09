@@ -90,7 +90,7 @@ mybatis:
     map-underscore-to-camel-case: true  
   mapper-locations: 
     - classpath:mybatis/mapper/**/*.xml
-  type-aliases-package: com.vj.lets.domain.member.dto,
+  type-aliases-package: com.vj.lets.domain.member.dto
 
 ---
       

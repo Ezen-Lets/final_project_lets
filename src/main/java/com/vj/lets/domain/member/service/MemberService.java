@@ -5,7 +5,11 @@ import java.util.List;
 import com.vj.lets.domain.member.dto.Member;
 
 /**
- * 회원 관련 비즈니스 로직 처리 및 트랜잭션 관리
+ * 회원 관련 비즈니스 로직 처리 및 트랜잭션 관리 서비스 인터페이스
+ *
+ * @author 김종원
+ * @version 1.0
+ * @since 2023-09-08 (금)
  */
 public interface MemberService {
 	

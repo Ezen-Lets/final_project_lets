@@ -11,6 +11,13 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * 회원 관련 서비스 테스트 클래스
+ *
+ * @author 김종원
+ * @version 1.0
+ * @since 2023-09-08 (금)
+ */
 @SpringBootTest
 @Slf4j
 class MemberServiceTest {

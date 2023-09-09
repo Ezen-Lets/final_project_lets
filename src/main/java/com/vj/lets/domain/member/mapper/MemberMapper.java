@@ -6,6 +6,13 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
+/**
+ * Member 매퍼 인터페이스
+ *
+ * @author 김종원
+ * @version 1.0
+ * @since 2023-09-08 (금)
+ */
 @Mapper
 public interface MemberMapper {
 

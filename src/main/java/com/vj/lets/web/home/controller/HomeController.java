@@ -1,6 +1,5 @@
 package com.vj.lets.web.home.controller;
 
-import com.vj.lets.domain.member.dto.LoginForm;
 import com.vj.lets.domain.member.dto.Member;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
@@ -11,11 +10,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * 홈페이지 요청을 처리하는 세부 컨트롤러 구현 클래스
- *
- * @author 에너자이조 김기정
+ * 메인 인덱스 페이지 요청 컨트롤러
+ * 
+ * @author 김종원
  * @version 1.0
- * @since 2023. 9. 4.
+ * @since 2023-09-08 (금)
  */
 @Controller
 @RequestMapping("/")
@@ -24,25 +23,35 @@ public class HomeController {
 
     @GetMapping("")
     public String home(HttpServletRequest request, Model model) {
-        Member loginMember = null;
-
         HttpSession session = request.getSession();
-        loginMember = (Member) session.getAttribute("loginMember");
-
+        Member loginMember = (Member) session.getAttribute("loginMember");
         if (loginMember == null) {
-            LoginForm loginForm = LoginForm.builder().build();
-            model.addAttribute("loginForm", loginForm);
             return "index";
         }
 
         if (loginMember.getType().equals("admin")) {
-            return "dashboard/admin/admin_dashboard";
+            return "redirect:/admin";
         } else if (loginMember.getType().equals("host")) {
-            return "dashboard/host/host_dashboard";
+            return "redirect:/host";
         } else {
-            return "common/cafe/cafe_main";
+            return "redirect:/cafe";
         }
 
+    }
+
+    @GetMapping("host")
+    public String hostHome(Model model) {
+        return "dashboard/host/host_dashboard";
+    }
+
+    @GetMapping("admin")
+    public String adminHome(Model model) {
+        return "dashboard/admin/admin_dashboard";
+    }
+
+    @GetMapping("cafe")
+    public String guestHome(Model model) {
+        return "common/cafe/cafe_main";
     }
 
 }

@@ -8,6 +8,13 @@ import org.springframework.transaction.annotation.Transactional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * MemberHistory 매퍼 테스트 클래스
+ *
+ * @author 김종원
+ * @version 1.0
+ * @since 2023-09-08 (금)
+ */
 @SpringBootTest
 @Slf4j
 class MemberHistoryMapperTest {

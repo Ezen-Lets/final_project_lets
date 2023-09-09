@@ -18,6 +18,7 @@
             <li th:if="${session.loginMember} == null">
                 <a type="button" class="btn btn-primary" data-bs-toggle="modal"
                    data-bs-target="#loginModal" title="LOG IN">LOG IN</a>
+<!--                <a th:href="@{/member/login}" type="button" class="btn btn-primary" title="LOG IN">LOG IN</a>-->
             </li>
             <li th:if="${session.loginMember} != null">
                 <a th:href="@{/member/logout}" type="button"
@@ -36,7 +37,7 @@
             <ul>
                 <li><span><a th:href="@{/}" href="#">Home</a></span></li>
                 <li><span><a th:href="@{/cafe}" href="/cafe-list.html">StudyCafe</a></span></li>
-                <li><span><a href="#0">StudyGroup</a></span>
+                <li><span><a href="#">StudyGroup</a></span>
                     <ul>
                         <li><a th:href="@{/group/mygroup}" href="#">My Group</a></li>
                         <li><a th:href="@{/group}" href="#">StudyList</a></li>
